@@ -1,0 +1,114 @@
+@font-face {
+  font-family: Blanka;
+  src: url('Blanka-Regular.otf');
+}
+
+@font-face {
+  font-family: Stellar;
+  src: url('PPStellar-Light.otf');
+}
+
+@font-face {
+  font-family: Anurati;
+  src: url('Anurati-Regular.otf');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    min-height: 100vh;
+    background: linear-gradient(45deg, #3c429b, #000000);
+  }
+
+  .main .player {
+    position: relative;
+    width: 350px;
+    background: #f1f3f4;
+    box-shadow: 0 50px 80px rgba(255, 0, 200, 0.3);
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .main .player .imgBx {
+    padding-top: ;
+    position: ;
+    width: 100%;
+    height: 350px;
+  }
+
+  .main .player .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .main .player audio {
+    width: 100%;
+    outline: none;
+    margin-top: 360px;
+    align-items: center;
+    position: absolute;
+  }
+  
+  .menu {
+    float: left;
+    width: 20%;
+    text-align: center;
+  }
+  
+  .menu a {
+    padding: 8px;
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-family: 'Stellar', sans-serif;
+    text-decoration: none;
+    margin-left: 15%;
+    transition: width 2s;
+    
+  }
+
+  .menu a:hover {
+    color: rgb(255, 0, 200);
+  }
+  
+  .main {
+    margin-top: 3%;
+    float: left;
+    width: 60%;
+    margin-bottom: 15%;
+  }
+  
+  .right {
+    color: white;
+    float: left;
+    width: 20%;
+    padding: 15px;
+    margin-top: 7px;
+    text-align: center;
+    font-family: 'Stellar', sans-serif;
+  }
+
+  .footer {
+    color:#e5e5e5;
+    text-align:center;
+    padding:10px;
+    margin-top:7px; 
+    font-family: 'Stellar', sans-serif; 
+    font-weight: bold;
+  }
+  
+  @media only screen and (max-width: 620px) {
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
